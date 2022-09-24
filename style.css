@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+.container {
+  /* border: 1px solid red; */
+  width: 20%;
+  height: 35vh;
+  margin: 30px auto;
+  /* border: 1px solid rgb(235, 128, 128); */
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px,
+    rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+}
+
+
+.warningicon {
+  /* border: 1px solid green; */
+  background-color: red;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-triangle-exclamation {
+  margin: auto;
+  font-size: 60px;
+  color: white;
+}
+
+.warningcontent {
+  text-align: center;
+  height: 70%;
+  padding: 15px 0;
+  background-color: white;
+}
+
+.warningparagraph {
+  margin: 15px 0;
+}
+
+.warningcontent a {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border: 1px solid rgb(239, 84, 84);
+  border-radius: 20px;
+  padding: 1px 10px;
+}
